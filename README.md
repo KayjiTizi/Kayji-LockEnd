@@ -14,15 +14,17 @@ Plugin Minecraft (Spigot) khóa/mở chiều **The End** — chặn người ch�
 - **Thông báo thời gian mở End** khi người chơi join và sau mỗi lệnh `/lockend`.
 - Tab-complete và kiểm tra quyền `lockend.admin`.
 
-## Lệnh
+## Bảng lệnh
 
-| Lệnh | Mô tả |
-| --- | --- |
-| `/lockend lock` | Khóa The End, đẩy người chơi đang ở trong End về Overworld |
-| `/lockend unlock` | Mở khóa The End |
-| `/lockend reload` | Tải lại `config.yml` và lên lịch auto-unlock |
+Gõ trong game với dấu `/`, có tab-complete:
 
-**Quyền:** `lockend.admin` — mặc định chỉ `op`.
+| Lệnh | Quyền | Mô tả |
+| --- | --- | --- |
+| `/lockend lock` | `lockend.admin` | Khóa The End, đẩy người chơi đang ở trong End về Overworld |
+| `/lockend unlock` | `lockend.admin` | Mở khóa The End |
+| `/lockend reload` | `lockend.admin` | Tải lại `config.yml` và lên lịch auto-unlock |
+
+> Quyền `lockend.admin` — mặc định chỉ `op`.
 
 ## Cấu hình
 
