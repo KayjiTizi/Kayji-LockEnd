@@ -1,0 +1,13 @@
+name: Kayji-LockEnd
+main: com.example.lockend.LockEndPlugin
+version: 1.0
+api-version: 1.16
+author: Kayji_tizi
+commands:
+  lockend:
+    description: Khoa hoac mo khoa The End
+    usage: /lockend <lock|unlock|reload>
+permissions:
+  lockend.admin:
+    description: Quyen su dung lenh /lockend
+    default: op

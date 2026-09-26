@@ -1,0 +1,19 @@
+# Khoa The End khi true, mo khi false
+lock-end: true
+
+# Thong bao khi bi chan
+kick-message: "&cThe End chua duoc mo khoa!"
+
+# Cau hinh mo khoa tu dong
+auto-unlock:
+  enabled: true
+  # Thu trong tuan (MONDAY..SUNDAY). Bo trong neu khong dung toi.
+  day-of-week: SATURDAY
+  # Ngay trong thang (1-31). Dat -1 neu khong can kiem tra.
+  day-of-month: 11
+  # Gio phut mo khoa (24h)
+  time: "17:50"
+  # Mien gio (timezone) dung dinh dang Java, vi du: Asia/Ho_Chi_Minh
+  timezone: "Asia/Ho_Chi_Minh"
+  # Duoc plugin tu dong cap nhat, khong sua bang tay
+  last-run: ""
